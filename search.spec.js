@@ -15,7 +15,7 @@ test('TC_039 - Search invalid keyword', async ({ page }) => {
     await page.goto('https://newme.asia/');
     await page.locator('(//button[@class="customButton customButton--noScale customButton--transparent p-0"])[1]').click();
     const searchBox = page.locator('//input[@type="search"]');
-    await searchBox.fill('xyzqwerty987654321');
+    await searchBox.fill('xyzqwerty987654321555555');
     await searchBox.press('Enter');
 
 });
